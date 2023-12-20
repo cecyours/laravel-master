@@ -46,10 +46,29 @@
 }
 .img-home{
     width: 100%;
+    transition: all 1s;
+}
+.img-home:hover{
+    scale: 1.2;
 }
 
 .heading{
     color:blue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-bottom: 1px blue solid;
+    transition: 0.5s;
+}
+
+.heading:hover{
+    letter-spacing: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.home-text{
+    color: #888;
+}
+
+.home-text::first-letter{
+    font-size: 150%;
+    /* background-color: red; */
 }
