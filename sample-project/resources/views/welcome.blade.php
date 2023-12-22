@@ -21,21 +21,10 @@
     </div>
 
         <div class="row justify-content-center">
-            <div class="col-md-3 shadow-sm m-4">
+            <div class="col-md-3 shadow-sm  post-container">
                 <h3 class="heading">Kites</h3>
-                <img src="{{asset('/images/pic2.png')}}" alt="sdfs" class="card-img">
-            </div>
-            <div class="col-md-3 shadow-sm m-4">
-                <h3 class="heading">Kites</h3>
-                <img src="{{asset('/images/pic2.png')}}" alt="sdfs" class="card-img">
-            </div>
-            <div class="col-md-3 shadow-sm m-4">
-                <h3 class="heading">Kites</h3>
-                <img src="{{asset('/images/pic2.png')}}" alt="sdfs" class="card-img">
-            </div>
-            <div class="col-md-3 shadow-sm m-4">
-                <h3 class="heading">Kites</h3>
-                <img src="{{asset('/images/pic2.png')}}" alt="sdfs" class="card-img">
+                <img src="{{asset('/images/pic2.png')}}" alt="sdfs" class="post-img">
+                <span class="post-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quas impedit odio culpa at excepturi consequatur et necessitatibus dolorem aut quos obcaecati unde reiciendis vero, voluptatibus distinctio quae rem nulla!</span>
             </div>
         </div>
 </div>

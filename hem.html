@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Product Carousel</title>
+</head>
+<body>
+
+<div class="container mt-5">
+  <h2 class="mb-4">Product Carousel</h2>
+  
+  <div id="productCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Item 1 -->
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <img src="image1.jpg" class="card-img-top" alt="Product 1">
+              <div class="card-body">
+                <h5 class="card-title">Product 1</h5>
+                <p class="card-text">Description for Product 1.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Repeat similar structure for more items in the first slide -->
+
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <img src="image2.jpg" class="card-img-top" alt="Product 2">
+              <div class="card-body">
+                <h5 class="card-title">Product 2</h5>
+                <p class="card-text">Description for Product 2.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Repeat similar structure for more items in the second slide -->
+
+        </div>
+      </div>
+
+      <!-- Add more items as needed -->
+
+    </div>
+
+    <!-- Carousel Controls -->
+    <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
+  </div>
+</div>
+
+<!-- Bootstrap JS and jQuery (Make sure jQuery is included before Bootstrap JS) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
